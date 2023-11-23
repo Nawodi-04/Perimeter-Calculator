@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Parallelogram">
+
+
+    <ImageView
+        android:id="@+id/aaa"
+        android:layout_width="80dp"
+        android:layout_height="77dp"
+        app:srcCompat="@drawable/bbb" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="297dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="26dp"
+        android:text="Perimeter of a Parallelogram"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/bbbb"
+        android:layout_width="237dp"
+        android:layout_height="173dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="96dp"
+        app:srcCompat="@drawable/bbbb" />
+
+    <TextView
+        android:id="@+id/texta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginBottom="332dp"
+        android:text="a :"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginBottom="266dp"
+        android:text="b :"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/textno"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="94dp"
+        android:layout_marginBottom="330dp"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/textno2"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="271dp"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/butn1"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginBottom="182dp"
+        android:text="Calculate"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textAns"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginBottom="111dp"
+        android:text="Ans :"
+        android:textSize="38dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/textNo"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="118dp"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/butn2"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginBottom="40dp"
+        android:text="Other Calculator"
+        android:textSize="25dp" />
+
+
+</RelativeLayout>

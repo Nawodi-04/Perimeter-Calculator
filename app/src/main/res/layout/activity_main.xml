@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/pre"
+        android:layout_width="62dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="8dp"
+        app:srcCompat="@drawable/pre" />
+
+    <TextView
+        android:id="@+id/topic"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="63dp"
+        android:text="Perimeter Calculator"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/aaa"
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="114dp"
+        app:srcCompat="@drawable/aaa" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="192dp"
+        android:text="Perimeter of a Square" />
+
+    <ImageView
+        android:id="@+id/bbb"
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="252dp"
+        android:layout_marginTop="114dp"
+        app:srcCompat="@drawable/bbb" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginEnd="39dp"
+        android:shadowColor="@color/black"
+        android:text="Perimeter of a Parallelogram"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/ccc"
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="260dp"
+        app:srcCompat="@drawable/ccc" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="337dp"
+        android:shadowColor="@color/black"
+        android:text="Perimeter of a Rectangle" />
+
+    <ImageView
+        android:id="@+id/ddd"
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="260dp"
+        app:srcCompat="@drawable/ddd" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="223dp"
+        android:layout_marginTop="338dp"
+        android:shadowColor="@color/black"
+        android:text="Perimeter of a Rhombus" />
+
+    <ImageView
+        android:id="@+id/eee"
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="408dp"
+        app:srcCompat="@drawable/eee" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="485dp"
+        android:shadowColor="@color/black"
+        android:text="Perimeter of a Trapezoid" />
+
+    <ImageView
+        android:id="@+id/fff"
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="251dp"
+        android:layout_marginTop="406dp"
+        app:srcCompat="@drawable/fff" />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="485dp"
+        android:layout_marginEnd="30dp"
+        android:shadowColor="@color/black"
+        android:text="Perimeter of a Triangle" />
+
+    <ImageView
+        android:id="@+id/ggg"
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="167dp"
+        android:layout_marginTop="544dp"
+        app:srcCompat="@drawable/ggg" />
+
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="618dp"
+        android:shadowColor="@color/black"
+        android:text="Circumference of a circle" />
+
+</RelativeLayout>
